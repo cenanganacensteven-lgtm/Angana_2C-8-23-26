@@ -1,0 +1,15 @@
+amespace HelloWorld
+{
+	public class Program
+	{
+		public static void Main(string[] args)
+		{ 
+			string name  = "CenAngana";
+			int age = 20;
+			double price = 25.99;
+			char store = 'C';
+			bool isHighValue = true;
+
+			Console.WriteLine("Hi my name is " + name + " I am " + " years old. I bought a manggo for a price of " + price + " per kilo. The name of the store is " + store + " and is it " + isHighValue + " for selling high value fruits");
+		}
+	}
